@@ -1,6 +1,8 @@
-# Указываем, что это PHP-проект
-providers = ["php"]
+[phps]
+version = "8.2"
 
-# Указываем команду запуска (хотя для callback это не критично)
+[build]
+command = "echo 'No build steps needed for plain PHP script'"
+
 [start]
-cmd = "php -S 0.0.0.0:$PORT facebook_deletion.php"
+command = "php -S 0.0.0.0:$PORT facebook_deletion.php"
