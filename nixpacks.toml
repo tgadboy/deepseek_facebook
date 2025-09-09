@@ -1,0 +1,6 @@
+# Указываем, что это PHP-проект
+providers = ["php"]
+
+# Указываем команду запуска (хотя для callback это не критично)
+[start]
+cmd = "php -S 0.0.0.0:$PORT facebook_deletion.php"
