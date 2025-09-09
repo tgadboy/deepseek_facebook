@@ -1,4 +1,5 @@
 <?php
 header('Content-Type: application/json');
-echo '{"url":"https://github.com","confirmation_code":"working"}';
+http_response_code(200);
+echo '{"url":"https://github.com","confirmation_code":"test_123"}';
 ?>
